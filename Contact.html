@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Spice Garden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Spice Garden</h1>
+        <p>Authentic South Indian Cuisine</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html" aria-current="page">Contact</a>
+    </nav>
+
+    <main class="container">
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have questions, catering requests, or feedback, we'd love to hear from you. Fill out the form below or use the phone/email listed.</p>
+
+            <form class="contact-form" action="#" method="post" aria-label="Contact form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> info@spicegarden.example</p>
+                <p><strong>Location:</strong> Coimbatore, India</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Open : 10 AM - 10 PM </p>
+        <p>Location: Coimbatore</p>
+    </footer>
+</body>
+</html>

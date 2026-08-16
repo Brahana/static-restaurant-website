@@ -1,0 +1,121 @@
+
+body{
+       margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+
+}
+.header{
+    margin-top:10px;
+    padding:20px;
+    font-size:18px;
+    text-align:center;
+    background-color: #d35400;
+    color:white;
+
+}
+
+.header p{
+    font-style: italic;
+}
+
+nav{
+    text-align: center;
+    background-color: #333;
+    padding :12px;
+    
+
+
+
+}
+nav a{
+  color:white;
+  text-decoration: none;
+padding-right:20px;
+ font-weight: bold;
+ font-size:18px;
+}
+
+
+/* Layout containers */
+.container{
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+div, section{
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* About / Contact styles */
+.about, .contact, .why-choose-us, .welcome-message{
+    background: #ffffffcc;
+    padding: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.about ul{
+    text-align: left;
+    display: inline-block;
+}
+
+/* Contact form */
+.contact-form{
+    max-width: 640px;
+    margin: 0 auto 18px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-form label{
+    text-align: left;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contact-form button{
+    background-color: #d35400;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-info{
+    margin-top: 8px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 18px 12px;
+    background: #f2e6de;
+    margin-top: 18px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px){
+    nav a{ display: inline-block; padding: 8px 12px; }
+    .container{ padding: 0 12px; }
+    .contact-form{ width: 100%; }
+}
+
+/* Focus styles for accessibility */
+a:focus, button:focus, input:focus, textarea:focus{
+    outline: 3px solid #ffd9bf;
+    outline-offset: 2px;
+}
